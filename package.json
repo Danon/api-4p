@@ -5,7 +5,8 @@
   "scripts": {
     "start": "docusaurus start",
     "build": "docusaurus build",
-    "deploy": "docusaurus deploy"
+    "deploy": "docusaurus deploy",
+    "test": "mocha 'test/**/*.spec.js' --require @babel/register"
   },
   "dependencies": {
     "@docusaurus/core": "^2.0.0-alpha.48",
@@ -16,6 +17,15 @@
     "docusaurus-plugin-sass": "^0.1.8",
     "react": "^16.8.4",
     "react-dom": "^16.8.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/register": "^7.9.0",
+    "chai": "^4.2.0",
+    "mocha": "^7.1.1"
   },
   "browserslist": {
     "production": [
