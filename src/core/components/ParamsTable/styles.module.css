@@ -1,0 +1,12 @@
+.parameters {
+  margin-top: 9px;
+}
+
+.noParams {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.minWidthCode {
+  min-width: 550px;
+}
