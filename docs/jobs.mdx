@@ -1,0 +1,13 @@
+---
+id: jobs
+title: Jobs
+---
+
+import Request from '../src/core/components/Request';
+import schema from './jobs.json';
+
+<Request get url="/jobs"/>
+<Request get url="/jobs/:id" parameters={{id: 1}} />
+
+<Request post url="/jobs" schema={schema} requiresLogin/>
+<Request put url="/jobs/:id" parameters={{id: 1}} schema={schema} requiresLogin/>

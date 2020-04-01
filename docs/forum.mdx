@@ -1,0 +1,10 @@
+---
+id: forum
+title: Forum
+---
+
+import Request from '../src/core/components/Request';
+
+<Request get url="/topics" parameters={{sort: 'id', order:'desc'}} />
+<Request get url="/topics/:id" parameters={{id: 1}} />
+<Request get url="/forums" />

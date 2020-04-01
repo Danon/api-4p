@@ -1,0 +1,10 @@
+---
+id: microblogs
+title: Microblogs
+---
+
+import Request from '../src/core/components/Request';
+
+<Request get url="/microblogs/:id" parameters={{id: 1}} />
+
+<Request get url="/microblogs" parameters={{page: 0}} pagination/>

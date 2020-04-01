@@ -1,0 +1,47 @@
+{
+  "title": "string",
+  "salary_from": 0,
+  "salary_to": 0,
+  "rate": "monthly",
+  "is_remote": false,
+  "remote_range": 0,
+  "is_gross": false,
+  "description": "string",
+  "recruitment": "string",
+  "email": "user@example.com",
+  "currency": "PLN",
+  "plan": "plus",
+  "seniority": "student",
+  "employment": "employment",
+  "locations": [
+    {
+      "city": "string",
+      "street": "string",
+      "street_number": "string",
+      "country": "string",
+      "latitude": 0,
+      "longitude": 0
+    }
+  ],
+  "tags": [
+    {
+      "name": "string",
+      "priority": 0
+    }
+  ],
+  "firm": {
+    "name": "string",
+    "is_agency": false,
+    "website": "string",
+    "logo": "string",
+    "description": "string",
+    "youtube_url": "string",
+    "latitude": 0,
+    "longitude": 0,
+    "street": "string",
+    "street_number": "string",
+    "city": "string",
+    "country": "string",
+    "postcode": "string"
+  }
+}

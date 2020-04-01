@@ -1,6 +1,6 @@
 module.exports = {
     someSidebar: {
         Documentation: ['style'],
-        "Getting started": ['login'],
+        "Getting started": ['login', 'microblogs', 'jobs', 'forum'],
     },
 };
